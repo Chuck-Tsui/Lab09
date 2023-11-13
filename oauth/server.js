@@ -7,7 +7,7 @@ var express             = require('express'),
 var facebookAuth = {
       'clientID'        : '581349460780185', // facebook App ID
       'clientSecret'    : 'dff8fa6a2519846a5557a9cc898c18fc', // facebook App Secret
-      'callbackURL'     : 'http://localhost:8099/auth/facebook/callback'
+      'callbackURL'     : 'https://three81lab09s1255682.onrender.com'
 };
 
 var user = {};  // user object to be put in session
